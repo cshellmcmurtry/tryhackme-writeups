@@ -1,4 +1,4 @@
-# Intro to LAN
+# What is Networking?
 
 ## Room Information
 
@@ -8,55 +8,63 @@
 
 ## Objective
 
-This room introduced the fundamentals of Local Area Networks (LANs). It explained how devices communicate within a local network, the purpose of common networking hardware, and how information is delivered between devices.
+This room introduced the fundamentals of computer networking, including how devices communicate, the different types of networks, and the hardware and protocols that enable network communication.
 
 ## Key Concepts
 
-### LAN Overview
+### What is a Network?
 
-A Local Area Network (LAN) connects devices within a limited area, such as a home, office, or school. One thing I learned is that a LAN isn't just devices connected to Wi-Fi—it's an entire system that allows computers, printers, phones, and other devices to communicate and share resources.
+A network is a group of connected devices that communicate and share resources with one another. Networks allow systems to exchange data, access shared services, and communicate efficiently across both local and global environments.
+
+### Types of Networks
+
+Common network types include:
+
+- **LAN (Local Area Network):** Connects devices within a limited area, such as a home, office, or school.
+- **WAN (Wide Area Network):** Connects multiple networks across larger geographic regions.
+- **MAN (Metropolitan Area Network):** Covers a city or metropolitan area.
+- **PAN (Personal Area Network):** Connects personal devices over short distances, such as Bluetooth connections.
+
+Each network type is designed to support different communication needs based on its size and scope.
 
 ### Network Devices
 
-This room introduced several devices commonly found on a LAN.
+Common networking devices include:
 
-- **Switches** connect devices within the same network and use MAC addresses to forward traffic to the correct device.
-- **Routers** connect different networks together and allow devices to communicate outside of the local network, such as accessing the internet.
-- **Access Points** provide wireless connectivity for devices joining the network.
-- **Network Interface Cards (NICs)** allow a device to connect to a wired or wireless network.
+- **Routers** – Connect different networks and direct traffic between them.
+- **Switches** – Connect devices within the same local network and forward traffic to the appropriate destination.
+- **Firewalls** – Monitor and filter network traffic based on security rules.
+- **Access Points** – Provide wireless connectivity to a network.
+- **Modems** – Connect a local network to an Internet Service Provider (ISP).
 
-Each device has a specific responsibility, and together they keep network communication running efficiently.
-
-### MAC Addresses
-
-A MAC address is a unique hardware address assigned to a network interface. Before this room, I had heard of MAC addresses but didn't fully understand their purpose. I learned that switches rely on MAC addresses to determine where data should be sent within a local network.
+Each device performs a specific function that helps maintain reliable and secure network communication.
 
 ### IP Addresses
 
-An IP address identifies a device's location on a network. While MAC addresses identify the physical network interface, IP addresses allow devices to communicate with one another across networks.
+An IP address is a logical identifier assigned to a device on a network. It allows devices to identify one another and ensures data is delivered to the correct destination.
 
-### Ethernet
+### Network Communication
 
-Ethernet is one of the most common wired networking technologies. It provides a reliable method for devices to communicate over a LAN using Ethernet cables and standardized communication protocols.
+Network communication occurs through the exchange of data packets. Standardized networking protocols define how data is transmitted, received, and interpreted to enable reliable communication between devices.
 
 ## What I Learned
 
 After completing this room, I learned:
 
-- The purpose of a Local Area Network (LAN).
-- The different roles of switches, routers, access points, and NICs.
-- The difference between MAC addresses and IP addresses.
-- How switches use MAC addresses to forward traffic.
-- Why Ethernet is commonly used for reliable wired communication.
+- The purpose and importance of computer networks.
+- The differences between common network types and their use cases.
+- The roles of essential networking devices.
+- How IP addresses enable communication between devices.
+- How packets and networking protocols facilitate reliable data transmission.
 
 ## Skills Practiced
 
 - Networking fundamentals
-- LAN architecture
+- Network terminology
 - Identifying network devices
-- Understanding MAC and IP addressing
-- Basic network communication
+- Understanding IP addressing
+- Basic network communication concepts
 
 ## Reflection
 
-This room helped me connect several networking concepts that I had previously learned separately. I already knew terms like switches, routers, MAC addresses, and IP addresses, but this room showed me how they work together inside a local network. Having that bigger picture makes networking much easier to understand.
+This room reinforced the networking fundamentals that support many areas of cybersecurity. Understanding how devices communicate, how traffic moves across a network, and the role of common networking hardware provides a strong foundation for security monitoring, incident response, and cloud technologies.
